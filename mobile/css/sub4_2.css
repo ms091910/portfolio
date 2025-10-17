@@ -1,0 +1,60 @@
+/* sub4_2 콘텐츠 */
+#content .content_area{
+  margin: 70px auto 0; width: 100%;
+}
+
+#content .content_area .title_box{
+  padding:0 35px 30px ;
+}
+#content .content_area .title_box p{
+  font-size: 1.57rem; font-weight: 700;
+  padding-bottom: 20px;
+}
+#content .content_area .title_box strong{
+  font-size: 1.14rem; font-weight: 400;
+}
+#content .content_area .title_box strong span{color: var(--font-color-point2);}
+
+#content .content_area img{
+  width: 100%;
+}
+
+#content .content_area .step{
+  width: 100%; margin: 0 auto;
+  padding-top: 70px; 
+}
+#content .content_area .step li{
+  padding: 0 25px 90px 120px;
+  position: relative;
+}
+#content .content_area .step .last{padding-bottom: 50px;}
+#content .content_area .step li dt{
+  font-size: 1.5rem; font-weight: 700;
+  letter-spacing: -0.5px;
+}
+#content .content_area .step li dd span{
+  width: 30px; height: 30px;
+  border-radius: 50%; 
+  border: 1.5px solid var(--font-color-main);
+  position: absolute; top: 7px; left: 50px;
+  font-size: 1.07rem; font-weight: 600;
+  display: flex; align-items: center; justify-content: center;
+}
+#content .content_area .step li dd span::after{
+  content: ''; display: block;
+  width: 1px; height: 142.5px; 
+  background: var(--font-color3);
+  position: absolute;
+  /* top: 30px; left: 15px; */
+  top: 100%; left: 50%;
+}
+#content .content_area .step li dd:nth-of-type(2){
+  padding-top: 10PX;
+  color: var(--font-color2); line-height: 1.5rem;
+}
+#content .content_area .step .last dd span{
+  background: var(--font-color-main); color: #fff;
+}
+#content .content_area .step .last dd span::after{
+  content: none;
+}

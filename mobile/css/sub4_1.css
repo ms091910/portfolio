@@ -1,0 +1,107 @@
+/* sub1_1 콘텐츠 */
+#content .content_area{
+  margin: 70px auto 0; width: 100%;
+}
+
+#content .content_area>p{
+  text-align: center;
+  font-size: 1.57rem;
+  font-weight: 500; padding: 0 20px;
+}
+#content .content_area>p span{color: var(--font-color-point2);}
+
+
+#content .content_area .talent{
+  padding: 80px 0;
+}
+#content .content_area .talent ul{
+  display: flex; flex-wrap: wrap;
+  justify-content: center; gap: 25px 0;
+}
+#content .content_area .talent li{
+  width: 85%;
+  border: 1px solid var(--font-color-main);
+  border-radius: 20px;
+}
+#content .content_area .talent li dl{
+  padding: 20px 40px 30px 20px;
+}
+#content .content_area .talent li dl dt{
+  color: var(--font-color-main); font-weight: 700;
+  font-size: 1.07rem;
+}
+#content .content_area .talent li dl dt>span{
+  display: block; color: #333;
+  font-size: 1.21rem; font-weight: 600;
+  padding: 5px 0 10px;
+}
+#content .content_area .talent li dl dd{
+  font-weight: 350; line-height: 1.5rem;
+}
+
+
+#content .content_area .duty{
+  width: 100%;
+  position: relative;
+}
+#content .content_area .duty h3{
+  font-size: 1.79rem; font-weight: 700;
+  text-align: center; margin-bottom: 20px;
+}
+#content .content_area .duty .swiper-container{
+  width: 100%; height: 100%;
+  box-sizing: border-box;
+}
+#content .content_area .duty .swiper-container ul{
+  width: 100%; height: 300px;
+  padding: 0;  margin: 0;
+}
+#content .content_area .duty .swiper-container ul li{
+  position: relative;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; /* 크롬/사파리 */
+}
+
+/* 각 스와이프 */
+#content .content_area .duty .man li{
+  background: url(../images/sub4_1/manage.jpg)center no-repeat;
+  background-size: cover;
+}
+#content .content_area .duty ul li .back::after{
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background: rgba(0,0,0,0.35);
+  z-index: 0
+}
+#content .content_area .duty .mark li{
+  background: url(../images/sub4_1/marketing.jpg)center no-repeat;
+  background-size: cover;
+}
+#content .content_area .duty .bus li{
+  background: url(../images/sub4_1/business.jpg)center no-repeat;
+  background-size: cover;
+}
+#content .content_area .duty .school li{
+  background: url(../images/sub4_1/school.jpg)center no-repeat;
+  background-size: cover;
+}
+/* 공통 텍스트 css */
+#content .content_area .duty .swiper-container ul li .cube_box strong{
+  font-size: 1.79rem; color: #fff;
+  position: absolute; bottom: 40px; left: 30px;
+  z-index: 10;
+}
+#content .content_area .duty .swiper-container ul li .cube_box.front strong{
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+#content .content_area .duty .swiper-container ul li .back p{
+  color: #fff;
+  position: absolute; top: 40px; left: 30px;
+  z-index: 10;
+  font-size: 1.29rem; line-height: 1.8rem; font-weight: 450;
+  padding-right: 50px;
+}
+.swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right{
+  background-image: none;
+}

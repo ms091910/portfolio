@@ -1,0 +1,84 @@
+/* sub2_2 콘텐츠 */
+#content .content_area{
+  margin: 70px auto 0; width: 100%;
+}
+
+#content .content_area>p{
+  text-align: center; font-size: 1.57rem;
+  font-weight: 500; color: var(--font-color-point2);
+  padding-bottom: 70px;
+}
+
+#content .content_area .policy{
+  width: 100%; height: 250px;
+  background: url(../images/sub2_2/bg.jpg)center no-repeat;
+  background-size: cover;
+}
+#content .content_area .policy div{
+  transform: translateY(50%); padding: 0 30px;
+}
+#content .content_area .policy h3{
+  font-size: 1.79rem; font-weight: 700;
+  color: #fff; padding-bottom: 20px;
+}
+#content .content_area .policy p{
+  font-size: 1.07rem; font-weight: 450; 
+  color: #fff; line-height: 1.5rem;
+}
+
+
+#content .content_area .rule{
+  padding: 50px 0 70px; width: 100%;
+}
+#content .content_area .rule div{
+  width: 85%; margin: 0 auto;
+  padding: 25px;
+  border: 1px solid var(--font-color-point2);
+  border-top: 2px solid var(--font-color-point2);
+}
+#content .content_area .rule div li{
+  padding-bottom: 15px;
+  position: relative;
+}
+#content .content_area .rule div li:nth-of-type(7){padding-bottom: 0;}
+#content .content_area .rule div li strong{
+  position: absolute; top: 7px; left: 0;
+  font-size: 1.14rem;
+}
+#content .content_area .rule div li span{
+  display: block;
+  margin-left: 57px;
+}
+
+#content .content_area .notify{width: 100%;}
+#content .content_area .notify h3{
+  font-size: 1.79rem; font-weight: 700;
+  text-align: center; padding-bottom: 20px;
+}
+#content .content_area .notify p{
+  font-size: 1.07rem; padding: 0 30px;
+  text-align: center; line-height: 1.5rem;
+  font-weight: 450;
+}
+#content .content_area .notify div{
+  padding-top: 30px;
+}
+#content .content_area .notify div ul{
+  display: flex; flex-wrap: wrap;
+  justify-content: center; gap: 20px 0;
+}
+#content .content_area .notify div ul li{
+  width: 75%; background: var(--font-color-sub2);
+  border-radius: 25px;
+  padding: 10px 0 10px 30px ;
+  display: flex; align-items: center; gap: 20px;
+}
+#content .content_area .notify .material-symbols-outlined {
+  font-variation-settings: 'FILL' 1;
+}
+#content .content_area .notify div ul li span:nth-of-type(1){
+  font-size: 2.8rem; color: var(--font-color-main);
+}
+#content .content_area .notify div ul li span:nth-of-type(2){
+  font-size: 1.14rem; font-weight: 550;
+}

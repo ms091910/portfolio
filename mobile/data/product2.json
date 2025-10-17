@@ -1,0 +1,14 @@
+{
+  "product2": [
+    {"Pname":"한국농협 볶음김치","Image":"./images/sub3_2/side_1.png","Type":"포장김치","Popimg":"./images/sub3_2/sdpop_1.jpg","Pop_tit":"한국농협김치 볶음김치","Desc":"반찬, 고명, 볶음밥, 두부김치 등 활용도가 높은 볶음김치","Kacl":"열량 : 70kal"},
+    {"Pname":"한국농협 총각김치","Image":"./images/sub3_2/side_2.png","Type":"포장김치","Popimg":"./images/sub3_2/sdpop_2.jpg","Pop_tit":"한국농협김치 총각김치","Desc":"무청이 달린 총각무를 양념하여 담근 김치로, 아삭한 식감과 깊은 맛","Kacl":"열량 : 129kal"},
+    {"Pname":"한국농협 파김치","Image":"./images/sub3_2/side_3.png","Type":"포장김치","Popimg":"./images/sub3_2/sdpop_3.jpg","Pop_tit":"한국농협김치 파김치","Desc":"농협김치 전용 새우젓과 멸치액젓을 사용하여 깔끔한 맛","Kacl":"열량 : 86kal"},
+    {"Pname":"한국농협 양념깻잎","Image":"./images/sub3_2/side_4.png","Type":"포장김치","Popimg":"./images/sub3_2/sdpop_4.jpg","Pop_tit":"한국농협김치 양념깻잎","Desc":"집밥이 그리울 때 간편하고 맛있게 한끼","Kacl":"열량 : 136kal"},
+    {"Pname":"한국농협 포기김치","Image":"./images/sub3_2/side_5.png","Type":"포장김치","Popimg":"./images/sub3_2/sdpop_5.jpg","Pop_tit":"한국농협김치 전라도 포기김치","Desc":"특유의 시원하고 칼칼한 맛이 일품인 전라도식 김치","Kacl":""},
+    {"Pname":"아름찬 김밥김","Image":"./images/sub3_2/side_6.png","Type":"김류","Popimg":"./images/sub3_2/sdpop_6.jpg","Pop_tit":"농협 아름찬 김밥김","Desc":"광천산 들깨를 볶지않고 그대로 짜내어 더욱 건강하고, 그윽한 향","Kacl":"열량 : 15kal"},
+    {"Pname":"아름찬 광천김자반","Image":"./images/sub3_2/side_7.png","Type":"김류","Popimg":"./images/sub3_2/sdpop_7.jpg","Pop_tit":"농협 아름찬 광천김자반","Desc":"참기름,  김과 볶은 참깨, 소금을 100% 국산으로 넣은 김자반","Kacl":"열량 : 60kal"},
+    {"Pname":"아름찬 새우젓","Image":"./images/sub3_2/side_8.png","Type":"젓갈","Popimg":"./images/sub3_2/sdpop_8.jpg","Pop_tit":"농협 아름찬 새우젓","Desc":"6월 새우로 살이 많고 통통한 최상품 새우로 만든 새우젓","Kacl":""},
+    {"Pname":"아름찬 육젓","Image":"./images/sub3_2/side_9.png","Type":"젓갈","Popimg":"./images/sub3_2/sdpop_9.jpg","Pop_tit":"농협 아름찬 육젓","Desc":"옛날 고유의 맛과 풍미를 가져 짠맛이 덜하고 깔끔한 육젓","Kacl":""}
+  ]
+}
+  

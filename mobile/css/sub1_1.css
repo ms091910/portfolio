@@ -1,0 +1,39 @@
+/* sub1_1 콘텐츠 */
+#content .content_area{
+  margin: 70px auto 0; width: 100%;
+}
+#content .content_area{
+  background: url(../images/sub1_1/bg_ceo.jpg)no-repeat;
+}
+#content .content_area .content_inner{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#content .content_inner img{
+  width: 300px; height: 360px;
+  border-radius: 25px 25px  0 0;
+}
+#content .content_inner .p_text{
+  width: 300px; height: 100px; 
+  background: var(--font-color-sub2);
+}
+#content .content_inner .p_text p{
+  padding: 20px ; font-weight: 550;
+  font-size: 1.07rem;
+}
+#content .content_inner .p_text p span{color: var(--font-color-main);}
+
+#content .content_inner .dis_box{
+  padding: 25px 40px;
+}
+#content .content_inner .dis_box p{
+  margin-bottom: 18px; font-weight: 450;
+  line-height: 1.5rem;
+}
+#content .content_inner .dis_box p:nth-of-type(4){margin-bottom: 0;}
+#content .content_inner strong{
+  display: block; padding-left: 150px;
+}
