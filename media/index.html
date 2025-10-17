@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vatican Museums</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="./favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+<link rel="apple-touch-startup-image" href="./startup.png">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="./css/swiper.min.css">
+<link rel="stylesheet" href="./css/aos.css">
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/layout.css">
+
+<script src="https://kit.fontawesome.com/56f415dbb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <div id="skipNav">
+	   <a href="#content">본문바로가기</a>
+	   <a href="#gnb">네비게이션바로가기</a>
+   </div>
+
+	<div id="wrap">
+		<div class="videoBox">
+			<video autoplay loop muted id="videoBG"></video>
+			<img src="./images/back.jpg" id="imgBG" alt="배경 이미지">
+			<a class="down" href="#">
+				<img src="./images/main/down.png" alt="스크롤다운 이미지">
+			</a>
+		</div>
+		
+		<header id="headerArea">
+			<div class="headerInner">
+				<h1><a href="./index.html">Vatican Museums</a></h1>
+				<a  class="menuOpen menu_ham" href="#">
+					<span>메뉴열기</span>
+				</a>
+				<nav id="gnb">
+					<h2 class="hidden">네비게이션영역</h2> 
+					<ul>
+						<li><h3><a href="./sub1.html?num=1">About</a></h3></li>
+						<li><h3><a href="./sub2.html?num=2">The Palace</a></h3></li>
+						<li><h3><a href="./sub3.html?num=3">Exhibition</a></h3></li>
+						<li><h3><a href="./sub4.html?num=4">Hours & admission</a></h3></li>
+						<li><h3><a href="./sub5.html?num=5">Gallery</a></h3></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	
+		<article id="content">
+			<h2 class="hidden">본문콘텐츠영역</h2>
+
+				<section class="about">
+					<h3 class="hidden">About</h3>
+					<ul>
+						<li data-aos="zoom-in">
+							<img src="./images/main/about1.jpg" alt="어바웃이미지1">
+						</li>
+
+						<li class="t_box" data-aos="fade-left">
+							<div class="about_t">
+								<div>
+									<strong>About</strong>
+									<a href="./sub1.html?num=1">More +</a>
+								</div>
+									<p>
+										Art, aside from being a credible witness to the beauty of creation, is also a tool of evangelisation. In the Church it exists above all to evangelise: through art - music, architecture, sculpture, painting - the Church explains and interprets the revelation. <span>The Vatican Museums, built on the former Belvedere Palace and surrounding buildings, once the papal residence, are the world's largest art museum, displaying the vast art collection amassed by Pope Julius II in the 16th century. Their house centuries of art, including works by Renaissance masters like Leonardo da Vinci, Michelangelo, and Raphael.</span>
+									</p>
+							</div>
+						</li>
+
+						<li data-aos="zoom-in">
+							<img src="./images/main/about3.jpg" alt="어바웃이미지3">
+						</li>
+
+						<li data-aos="zoom-in">
+							<img src="./images/main/about4.jpg" alt="어바웃이미지4">
+						</li>
+
+						<li data-aos="fade-right">
+							<div>
+								<p>
+								The Vatican Museums must increasingly be a place of beauty and welcome. They must welcome new forms of art. They must open their doors to people from all over the world, as an instrument of dialogue between cultures and religions, a tool for peace. Not dusty collections from the past solely for the “elite” or the “learned”, but a living reality able to conserve the past in order to transmit it to the people of today, starting with the most humble.
+							</p>
+							</div>
+							
+						</li>
+
+						<li data-aos="zoom-in">
+							<img src="./images/main/about6.jpg" alt="어바웃이미지6">
+						</li>
+					</ul>
+				</section>
+
+				<section class="palace">
+					<div class="palace_text" data-aos="fade-down">
+						<h3>The Palace</h3>
+						<a href="./sub2.html?num=2">More +</a>
+					</div>
+						<p data-aos="fade-down">
+							Discover the treasures of the Vatican Museums. Explore 24 exhibition halls, from the historic and iconic Sistine Chapel to Egyptian artifacts, and experience a moving blend of art and history.
+						</p>
+						<p data-aos="fade-down">
+							Explore the treasures of the Vatican Museums, a moving experience combining art and history.
+						</p>
+
+					<div class="swiper-container" data-aos="fade-down">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide" style="background: url(./images/main/palace1.jpg);"></li>
+							<li class="swiper-slide" style="background: url(./images/main/palace2.jpg);"></li>
+							<li class="swiper-slide" style="background: url(./images/main/palace3.jpg);"></li>
+							<li class="swiper-slide" style="background: url(./images/main/palace4.jpg);"></li>
+							<li class="swiper-slide" style="background: url(./images/main/palace5.jpg);"></li>
+							<li class="swiper-slide" style="background: url(./images/main/palace6.jpg);"></li>
+							<li class="swiper-slide" style="background: url(./images/main/palace7.jpg);"></li>
+						</ul>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+					</div>
+					<div id="text"></div>
+				</section>
+
+				<section class="exhibition">
+					<h3 class="hidden">Exhibition</h3>
+					<div class="ex_inner">
+						<ul>
+							<li data-aos="fade-right"><img src="./images/main/exhibition1.jpg" alt="전시회이미지1"></li>
+							<li data-aos="zoom-in"><img src="./images/main/exhibition2.jpg" alt="전시회이미지2"></li>
+							<li data-aos="fade-right"><img src="./images/main/exhibition3.jpg" alt="전시회이미지3"></li>
+							<li data-aos="zoom-in"><img src="./images/main/exhibition4.jpg" alt="전시회이미지4"></li>
+							<li data-aos="zoom-in">
+								<div class="t_box">
+									<div>
+										<strong>Exhibition</strong>
+										<a href="./sub3.html?num=3">More +</a>
+									</div>
+									<p>
+										Special exhibitions held in the sacred and mystical palace offer pilgrims and tourists alike an experience that goes beyond mere viewing, including restored relics and touring concerts. <span>Artistic and historical treasures from the world's greatest artists await you at the Vatican.</span>
+									</p>
+								</div>
+							</li>
+							<li data-aos="zoom-in"><img src="./images/main/exhibition6.jpg" alt="전시회이미지6"></li>
+							<li data-aos="fade-left"><img src="./images/main/exhibition7.jpg" alt="전시회이미지7"></li>
+							<li data-aos="zoom-in"><img src="./images/main/exhibition8.jpg" alt="전시회이미지8"></li>
+							<li data-aos="zoom-in"><img src="./images/main/exhibition9.jpg" alt="전시회이미지9"></li>
+							<li data-aos="zoom-in"><img src="./images/main/exhibition10.jpg" alt="전시회이미지10"></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="hour">
+					<div class="t_box" data-aos="fade-down">
+						<h3>Hours & admission</h3>
+						<a href="./sub4.html?num=4">More +</a>
+					</div>
+						<p data-aos="fade-down">Make a visit plan</p>
+
+					<div class="hour_inner">
+						<ul>
+							<li class="museum">
+								<div data-aos="fade-right">
+									<strong>Museums</strong>
+								</div>
+								<div data-aos="fade-right">
+									<dl>
+										<dt>Hours</dt>
+										<dd>
+											From Monday to Saturday <br>
+											<span>08.00 a.m. - 08.00 p.m. (final entry 06.00 p.m.)</span>
+										</dd>
+										<dd>
+											Every last Sunday of the month <br>
+											<span>09.00 a.m. - 02.00 p.m. (final entry 12.30 p.m.)</span>
+										</dd>
+										<dd>
+											Free entry <br>
+											<span>Possibility of guided tours upon reservation</span>
+										</dd>
+									</dl>	
+								</div>	
+								<div data-aos="fade-left">
+									<img src="./images/main/hours_museums.jpg" alt="시간 박물관이미지">							
+								</div>
+							</li>
+
+							<li class="garden">
+									<div data-aos="fade-right">
+										<img src="./images/main/hours_garden.jpg" alt="시간 정원이미지">
+									</div>
+									<div data-aos="fade-left">
+										<strong><span>Secret Garden of</span> Castel Gandolfo</strong>
+									</div>
+									<div data-aos="fade-left">
+										<dl>
+											<dt>Hours</dt>
+											<dd>
+												From Monday to Saturday <br>
+												<span>08.00 a.m. - 01.00 p.m.</span>
+											</dd>
+											<dd>
+												Every last Sunday of the month <br>
+												<span>09.00 a.m. - 05.00 p.m. (final entry 02.00 p.m.)</span>
+											</dd>
+											<dd>
+												Free entry <br>
+												<span>Possibility of guided tours upon reservation</span>
+											</dd>
+										</dl>
+									</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				
+				<section class="gallery">
+					<div class="t_box" data-aos="fade-down">
+						<h3>Gallery</h3>
+						<a href="./sub5.html?num=5">More +</a>
+					</div>
+						<p data-aos="fade-down">A sublime space where sacred art and human creativity unite, inviting you to behold the eternal story of the Vatican.</p>
+
+					<ul>
+						<li data-aos="flip-up" data-aos-duration="800"><img src="./images/main/gallery1.jpg" alt="겔러리사진1"><span>Pietà</span></li>
+						<li data-aos="flip-up" data-aos-duration="800"><img src="./images/main/gallery2.jpg" alt="겔러리사진2"><span>Aldobrandini Wedding</span></li>
+						<li data-aos="flip-up" data-aos-duration="800"><img src="./images/main/gallery3.jpg" alt="겔러리사진3"><span>Museus do Vaticano</span></li>
+						<li data-aos="flip-up" data-aos-duration="800"><img src="./images/main/gallery4.jpg" alt="겔러리사진4"><span>Criação do mundo</span></li>
+						<li data-aos="flip-up" data-aos-duration="800"><img src="./images/main/gallery5.jpg" alt="겔러리사진5"><span>Deposizione di Cristo</span></li>
+						<li data-aos="flip-up" data-aos-duration="800"><img src="./images/main/gallery6.jpg" alt="겔러리사진6"><span>Cappella Niccolina</span></li>
+						<li data-aos="flip-up" data-aos-duration="800"><img src="./images/main/gallery7.jpg" alt="겔러리사진7"><span>Scuola di Atene</span></li>
+					</ul>
+				</section>
+		</article>
+		
+		<footer id="footerArea">
+			<a class="top_move" href="#">
+				<img src="./images/top.png" alt="top기능 이미지">
+				<span>TOP</span>
+			</a>
+
+			<div class="footer_inner">
+				<div class="footer_left">
+					<a class="footer_logo" href="./index.html">footer logo</a>
+					<ul>
+						<li><a href="#">Useful links</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Accessibility</a></li>
+						<li><a href="#">Credits</a></li>
+						<li><a href="#">Copyright</a></li>
+					</ul>
+				</div>
+				<div class="footer_right">
+					<ul>
+						<li><a href="https://www.youtube.com/c/MuseiVaticaniMv"><i class="fa-brands fa-youtube"></i></a></li>
+						<li><a href="https://www.instagram.com/vaticanmuseums/"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+</div>	
+
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/jquery-migrate-1.4.1.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/video.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>

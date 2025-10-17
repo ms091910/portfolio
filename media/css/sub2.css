@@ -1,0 +1,252 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+.down{display: block; position: absolute; 
+   left:50%; margin-left: -65px; bottom: 10%;
+  animation:ani 1s infinite  alternate;
+}
+.down::before{
+  content: 'SCROLL DOWN'; width: 130px; font-size: 1.03rem; text-align: center;
+  left: 50%; transform: translateX(-50%); bottom: -23px;
+  position: absolute;
+  transition: all .4s ease-out;
+  opacity: 0;
+}
+.down:hover::before{opacity: 1;}
+@keyframes ani {
+  0% { transform:scale(0.97);}
+  100% { transform:scale(1);}
+}
+	
+#content{ width:100%; margin:0 auto; background:rgba(0,0,0,.8); position: relative;}
+#content h2{
+   position: absolute; top: -550px;
+   width: 100%; text-align: center; font-size: 5rem; font-weight: 800;
+   text-shadow: 3px 3px 20px rgba(0, 0, 0,.4);}
+#content h2 span {display: inline-block;}
+
+
+#content .top_text{padding: 150px 0; text-align: center; width: 72%; margin: 0 auto;}
+#content .top_text P{font-size: 1.56rem; line-height: 2.8rem;}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+.sidebar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.sidebar p {
+  font-weight: 900;
+  font-size: 2.69rem;
+  margin-bottom: 10px;
+  margin-top: -30px;
+  padding: 20px;
+  text-align: center;
+}
+.sidebar span{
+  font-size: 1.07rem;
+  font-weight: 350;
+  text-align: center;
+}
+.main-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+.main-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+button {
+  background-color: var(--font-color-sub2);
+  border: none;
+  color: var(--font-color-sub1);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+  transition: all .3s ease-out;
+}
+button:hover {
+  color: var(--font-color-main);
+}
+button:focus {
+  outline: none;
+}
+.container .controls button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 20;
+}
+.container .controls .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.container .controls .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+#content .grid_img{width: 90%; margin: 0 auto; padding: 150px 0;}
+#content .grid_img ul{
+  display: grid; padding: 100px 0;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  grid-auto-rows: auto;
+  grid-template-areas: 
+  'a a'
+  'b c';
+}
+#content .grid_img ul li{overflow: hidden;}
+#content .grid_img ul li img{
+  object-fit: cover; object-position: center; 
+  width: 100%; height: 100%;
+  filter: brightness(80%); transition: all .5s ease-out;
+}
+#content .grid_img ul li img:hover{filter: brightness(110%); transform: scale(1.03);}
+#content .grid_img ul li:nth-of-type(1){grid-area: a;}
+#content .grid_img ul li:nth-of-type(2){grid-area: b;}
+#content .grid_img ul li:nth-of-type(3){grid-area: c;}
+
+
+#content .cilp{width: 90%; margin: 0 auto; padding-bottom: 100px;}
+#content .cilp>p{text-align: center; font-size: 1.56rem; font-weight: 500;}
+#content .cilp ul{
+  display: flex; justify-content: space-between;
+  padding-top: 80px; gap: 20px;
+}
+#content .cilp ul li{overflow: hidden;}
+#content .cilp ul li a{position: relative;}
+#content .cilp ul li img{object-fit: cover; object-position: center; width: 100%; height: 100%;}
+#content .cilp ul li .playBnt{
+  position: absolute; top: 50%; left: 50%; 
+  transform: translate(-50%,-50%); 
+  font-size: 5rem; 
+}
+#content .cilp ul li a:hover .playBnt i{color: #FF0033; transition: all .4s ease-out;}
+#content .cilp ul li .media_text{
+  text-align: center; padding-top: 20px;
+  font-size: 1.13rem; font-style: italic;
+}
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+  #content .top_text{width: 85%;}
+
+  #content .cilp>p{font-size: 1.38rem;}
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+  #content .top_text P{font-size: 1.38rem; line-height: 2.1rem;} 
+
+  .sidebar p{font-size: 2.13rem;}
+  .sidebar span{padding: 0 15px; font-size: 1rem;}
+  .container .controls button{top: 35%;}
+
+  #content .grid_img{padding: 100px 0;}
+  #content .grid_img ul{
+    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    'a'
+    'b'
+    'c';
+    grid-template-rows: .7fr .7fr .7fr;
+  }
+
+  #content .cilp ul{padding-top: 50px;}
+  #content .cilp ul li .playBnt{font-size: 4.2rem;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+  #content h2{font-size: 3.5rem;}
+  #content .top_text{padding: 120px 0;}
+  #content .top_text P{font-size: 1.25rem;}
+
+  .sidebar{width: 40%;}
+  .main-slide{left: 40%;}
+  .container .controls button{left: 40%; top: 32%;}
+  .sidebar p{ padding: 15px;}
+
+  #content .grid_img{width: 93%; padding: 50px 0;}
+
+  #content .cilp{width: 93%;}
+  #content .cilp>p{font-size: 1.25rem;}
+  #content .cilp ul{padding-top: 30px;}
+  #content .cilp ul li:nth-of-type(3){display: none;}
+  #content .cilp ul li .playBnt{font-size: 3.5rem;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+  #content .top_text{width: 90%;}
+  #content .top_text P{font-size: 1.13rem;}
+
+  .container {
+    height: 600px;
+  }
+  .container .controls button{top: 20%;}
+
+  #content .grid_img ul{
+    gap: 10px;
+    grid-template-rows: .85fr .85fr;
+    grid-template-areas: 
+    'a'
+    'c';
+    padding: 50px 0;
+  }
+  #content .grid_img ul li:nth-of-type(2){display: none;}
+
+  #content .cilp>p{font-size: 1.13rem; width: 85%; margin: 0 auto;}
+  #content .cilp ul{display: inherit;}
+  #content .cilp ul li{padding-bottom: 30px;}
+  #content .cilp ul li:nth-of-type(3){display: block; padding-bottom: 0;}
+  #content .cilp ul li .playBnt{font-size: 5rem;}
+  #content .cilp ul li .media_text{padding-top: 10px;}
+}
