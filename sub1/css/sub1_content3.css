@@ -1,0 +1,167 @@
+/* 가치체계 내용 콘텐츠 */
+#content .content_area{
+  width: 100%;
+  padding-bottom: 150px;
+}
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area .title_text{
+  width: 1400px;
+  margin: 10px auto 0;
+  text-align: center;
+}
+#content .content_area .title_text p strong{
+  font-size: 3.13rem;
+  color: var(--font-color-point2);
+  font-weight: 500;
+}
+#content .content_area .title_text p:nth-of-type(2){
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  margin: 50px 0 150px;
+}
+
+
+#content .content_area .vision{
+ width: 2000px; 
+ position: relative; left:50%; transform: translateX(-50%);top:0; 
+ margin: 150px 0;
+}
+#content .content_area .vision h3{
+  font-size: 3.13rem; font-weight: 700;
+  width: 1400px; margin: 0 auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
+#content .content_area .vision .vision_box{
+  width: 1700px;
+  display: flex; gap: 170px;
+}
+#content .content_area .vision img{
+  width: 910px; height: 460px;
+  border-radius: 0 40px 40px 0;
+}
+#content .content_area .vision .vision_box strong{
+  display: block; font-size: 4.38rem; 
+  color: var(--font-color-point2); 
+  /* margin-bottom: 10px;  */
+  text-align: right;
+}
+#content .content_area .vision .vision_box p{
+  font-size: 1.25rem;
+  line-height: 2.19rem;
+  text-align: right;
+  margin-top: 90px;
+}
+#content .content_area .vision .vision_box p span{
+  font-weight: 700;
+}
+
+
+
+#content .content_area .misson{
+  width: 2000px;
+  height: 1000px;
+ background: url(../images/content3/bg.jpg) no-repeat;
+ background-size: cover;
+ position: relative; left: 50%; transform: translateX(-50%);
+}
+#content .content_area .misson div{
+  width: 1400px;
+  margin: 0 auto;
+ padding: 150px 0;
+}
+#content .content_area .misson div h3{
+  font-size: 3.13rem;
+  color: #fff;
+  text-align: center;
+}
+#content .content_area .misson div p{
+  color: #fff;
+  text-align: center;
+  font-size: 1.44rem; 
+  margin: 15px 0 120px 0;
+}
+#content .content_area .misson ul{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+#content .content_area .misson li{
+  width: 350px; height: 420px; backdrop-filter: blur(5px);
+  background: rgba(0,0,0,.1);
+  border: 2px solid var(--font-color-main);
+  border-radius: 30px;
+  transition: all .3s ease-out;
+}
+#content .content_area .misson li:hover{
+  transform: scale(1.08);
+  box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+  background:rgba(255,255,255,.8);
+}
+#content .content_area .misson li dl{
+  text-align: center;
+  padding: 60px 30px;
+  box-sizing: border-box;
+}
+#content .content_area .misson li dl dt{
+  font-size: 1.75rem; font-weight: 600;
+  color: var(--font-color-main);
+  margin-bottom: 50px;
+}
+#content .content_area .misson li dl dd{
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #fff;
+}
+#content .content_area .misson li:hover dl dd{color: #333;}
+
+
+
+#content .content_area .Enterprise_value{
+  width: 1400px; margin: 0 auto;
+  padding-top: 150px;
+}
+#content .content_area .Enterprise_value h3{
+  font-size: 3.13rem; font-weight: 700;
+  text-align: center;
+}
+#content .content_area .Enterprise_value ul{
+  display: flex; justify-content: center; 
+  gap: 120px;
+  margin-top: 130px;
+}
+#content .content_area .Enterprise_value ul .circle{
+  width: 140px; height: 140px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 1px 1px 15px 1px rgba(0,0,0,.2);
+  display: flex; justify-content: center; align-items: center;
+  transition: all .4s ease-out;
+}
+#content .content_area .Enterprise_value ul .circle:hover{
+  background: var(--font-color-main);
+  transform: rotateY(360deg)
+}
+#content .content_area .Enterprise_value ul .circle span{
+  font-size: 3.5rem;
+  color: var(--font-color-main);
+}
+#content .content_area .Enterprise_value ul .circle:hover span{
+  color: #fff;
+}
+#content .content_area .Enterprise_value ul .circle i{ 
+  font-size: 2.6rem; 
+  color: var(--font-color-main);
+}
+#content .content_area .Enterprise_value ul .circle:hover i{
+  color: #fff;
+}
+#content .content_area .Enterprise_value ul li strong{
+  display: block; text-align: center;
+  margin-top: 20px; font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 30px;
+}

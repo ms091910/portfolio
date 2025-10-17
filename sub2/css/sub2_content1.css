@@ -1,0 +1,226 @@
+/* 사회책임경영 내용 콘텐츠 */
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 100%; 
+  padding-bottom: 150px;
+}
+#content .content_area .p1{
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.44rem; font-weight: 400;
+  margin-top: 50px;
+}
+#content .content_area .p1 span:nth-of-type(1){font-weight: 600;}
+#content .content_area .p1 span:nth-of-type(2){color: var(--font-color-point2); font-weight: 600;}
+
+#content .content_area .capital{
+  width: 2000px; height: 1200px;
+  position: relative; left:50%; transform: translateX(-50%);top:0;
+  background-color: var(--font-color-sub2);
+  margin-top: 130px; 
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+#content .content_area .capital div{
+  width: 1400px; margin: 0 auto;
+  text-align: center;
+}
+#content .content_area .capital div h3{
+  font-size: 3.13rem; font-weight: 700; margin-bottom: 10px;
+}
+#content .content_area .capital div p{
+  font-size: 1.4rem;
+}
+#content .content_area .capital .capital_box{
+  width: 1400px; 
+}
+#content .content_area .capital .capital_box ul{
+  position:relative;
+}
+#content .content_area .capital .capital_box ul::after{
+  width: 700px; height: 700px;
+  border: 2px dashed #ccc; 
+  border-radius: 50%;
+  content: ''; display: block;
+  margin-top: 100px; 
+  position: absolute; z-index: -1;
+  left:50%; transform: translateX(-50%); top:0;
+}
+#content .content_area .capital .capital_box li{
+  width: 270px; height: 270px;
+  background: var(--font-color-main);
+  border-radius: 50%;
+  color: #fff;
+  position: absolute; left: 50%; transform: translateX(-50%); top:320px;
+  display: flex;
+  justify-content: center; align-items: center; transition: all .5s ease-out;
+}
+
+#content .content_area .capital .capital_box li:nth-of-type(2){top: 50px; margin-left: -250px;}
+#content .content_area .capital .capital_box li:nth-of-type(3){top: 50px; margin-left: 250px;}
+#content .content_area .capital .capital_box li:nth-of-type(4){top: 360px; margin-left: 380px;}
+#content .content_area .capital .capital_box li:nth-of-type(5){top: 650px; margin-left: 250px;}
+#content .content_area .capital .capital_box li:nth-of-type(6){top: 650px; margin-left: -250px;}
+#content .content_area .capital .capital_box li:nth-of-type(7){top: 360px; margin-left: -380px;}
+
+#content .content_area .capital .capital_box li span{
+  font-size: 2.5rem; font-weight: 600;
+}
+#content .content_area .capital .capital_box .circle_sub{
+  background: #fff; 
+  /* transform: scale(.8); */
+  width: 200px; height: 200px;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,.15);
+  color: var(--font-color-main);
+}
+#content .content_area .capital .capital_box .circle_sub:hover{
+  transform: translateX(-50%) scale(1.2);
+}
+#content .content_area .capital .capital_box .circle_sub span{
+  font-size: 1.56rem;
+}
+
+
+#content .content_area .social{
+  width: 1400px; margin: 0 auto;
+  padding: 150px 0;
+  box-sizing: border-box;
+}
+#content .content_area .social div{
+  text-align: center; 
+}
+#content .content_area .social div h3{
+  font-size: 3.13rem; font-weight: 700;
+}
+#content .content_area .social div p{
+  font-size: 1.31rem; line-height: 2rem;
+  margin-top: 30px; font-weight: 400;
+}
+
+#content .content_area .social ul{
+  margin: 120px auto 50px;
+  width: 1400px; height: 100px; position: relative;
+  display: flex; justify-content: center;
+}
+#content .content_area .social ul::before{
+  content: ''; display: block;
+  width: 1200px; height: 5px;
+  background: url(../images/content1/social_line.png);
+  background-repeat: repeat-x;
+  /* margin-left: 150px; */
+  position:absolute; left: 50%; transform: translateX(-50%);
+}
+#content .content_area .social ul li{
+  width: 250px; text-align: center;
+  margin-top: 50px; position: relative;
+}
+#content .content_area .social ul li::before{content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 5px solid var(--font-color-main); 
+  position: absolute; left:110px; top:-63px;
+  border-radius: 50%;
+}
+#content .content_area .social ul li span{
+  font-size: 1.56rem; font-weight: 600;
+  color: var(--font-color3); display: block;
+  margin-bottom: 20px;
+}
+#content .content_area .social ul li p{
+  font-size: 1.44rem; 
+}
+
+
+
+#content .content_area .bm{
+  width: 2000px; height: 380px;
+  background: url(../images/content1/bm_business.jpg) no-repeat;
+  background-attachment:fixed ;
+  background-size:cover ;
+}
+#content .content_area .bm div{
+  width: 1400px; color: #fff;
+  margin: 0 auto;
+  position: relative
+}
+#content .content_area .bm div h3{
+  font-size: 2.81rem; font-weight: 700;
+  position: absolute; top: 100px; right: 65px;
+}
+#content .content_area .bm div p{
+  position: absolute; top: 200px; right: 40px;
+  text-align: center;
+  font-size: 1.38rem; line-height: 2.19rem;
+}
+
+
+
+#content .content_area .distribution{
+  width: 100%;
+  padding: 100px 0 0;
+}
+#content .content_area .distribution .distribution_inner{
+  width: 1100px;padding: 50px 30px;
+  margin: 0 auto;
+  background: var(--font-color-sub2); border-radius: 40px;
+}
+#content .content_area .distribution ul li{
+  padding: 35px 50px;
+}
+#content .content_area .distribution ul dl{
+  display: flex;
+  justify-content: space-between;
+}
+#content .content_area .distribution ul dl dt{
+  font-size: 2rem; font-weight: 500;
+  display: flex;
+}
+#content .content_area .distribution ul dl .material-symbols-outlined{
+  font-size: 3.44rem;
+  color: var(--font-color-main);
+  margin-right: 25px;
+}
+#content .content_area .distribution ul dl dd{
+  width: 550px; height: 50px;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+
+
+#content .content_area .dreaming{
+  width: 1400px; margin: 0 auto;
+  padding-top:100px;
+}
+#content .content_area .dreaming strong{
+  text-align: center; display: block;
+  font-size: 1.25rem; font-weight: 600; color: var(--font-color-main);
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+#content .content_area .dreaming h3{
+  font-size: 3.5rem; text-align: center; 
+}
+#content .content_area .dreaming h3>span{color: var(--font-color-main);}
+#content .content_area .dreaming .con_text{
+  /* text-align: center; font-size: 1.19rem;
+  padding-top:25px ; line-height: 1.75rem; font-weight: 400;
+  color: var(--font-color2); */
+  font-size: 1.25rem; font-weight: 400; color: #666;
+  padding-top: 20px; text-align: center;
+}
+#content .content_area .dreaming .con_text span{color: var(--font-color-main);}
+#content .content_area .dreaming ul{
+  display: flex; justify-content: center;
+  padding-top: 90px; gap: 110px;
+}
+#content .content_area .dreaming ul li span{
+  display: block; text-align: center; margin-top: 20px;
+  font-weight: 400; font-size: 1.13rem;
+}

@@ -1,0 +1,84 @@
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 100%; 
+  padding-bottom: 150px;
+}
+
+#content .content_area .title_text{
+  width: 1400px; margin: 0 auto;
+  padding-top: 120px; 
+}
+#content .content_area .title_text p{
+  font-size: 3.13rem; line-height: 4.06rem; 
+  text-align: left; font-weight: 700;
+  margin-bottom: 50px;
+}
+#content .content_area .title_text strong{
+  font-weight: 400; font-size: 1.38rem;
+  line-height: 1.88rem;  display: block;
+}
+#content .content_area .title_text strong span{color: var(--font-color-point2); font-weight: 500;}
+#content .content_area .bg_img{padding-top: 135px;}
+
+
+#content .content_area .regular{
+  width: 1400px; margin: 0 auto;
+  padding-top: 150px;
+}
+#content .content_area .regular h3{font-size: 1.88rem; margin-bottom: 50px;}
+#content .content_area .regular ol{
+  display: flex; justify-content: center; gap: 60px; 
+  font-weight: 500; 
+}
+#content .content_area .regular ol li{
+  width: 160px; height: 120px;
+  border: 1px solid var(--font-color-sub1);
+  position: relative; text-align: center;
+}
+#content .content_area .regular ol li:last-child{
+  border: 0; background: var(--font-color-main); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+}
+#content .content_area .regular ol li::after{
+  content: '▶'; color: var(--font-color-main); 
+  font-size: 1.2rem;
+  position: absolute; right:-40px; top:52px;
+}
+#content .content_area .regular ol li:last-of-type::after{content: '';}
+#content .content_area .regular ol li span{
+  font-weight: 500; color: var(--font-color-main);
+  display: block; margin-top: 35px;
+}
+
+
+
+#content .content_area .regular_text{
+  width: 1400px;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 100px;
+  justify-content: center;
+}
+#content .content_area .regular_text dl{
+  width: 30%; position: relative;
+  margin-bottom: 50px;
+}
+#content .content_area .regular_text dl::after{
+  width: 420px; height: 1px; content: '';
+  background: #ccc;
+  position: absolute; top: 170px;
+
+}
+#content .content_area .regular_text dl dt{
+  font-size: 1.25rem; font-weight: 600;
+  padding-bottom: 30px;
+}
+#content .content_area .regular_text dl dd{
+  font-size: 1.13rem; line-height: 1.75rem;
+  color: var(--font-color2);
+}

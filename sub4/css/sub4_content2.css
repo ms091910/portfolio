@@ -1,0 +1,9 @@
+/* 사회책임경영 내용 콘텐츠 */
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 1400px; margin: 0 auto;
+  padding-bottom:150px;
+}

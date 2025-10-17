@@ -1,0 +1,40 @@
+/* 인사말 내용 콘텐츠 */
+#content .content_area{
+  width: 2000px;
+  padding-bottom: 150px;
+  background: url(../images/content1/bg_ceo.png) no-repeat;
+  margin-top: 185px;
+}
+#content .title_area p{
+  color: var(--font-color-main);
+}
+#content .content_area_inner{
+  width: 1400px; margin: 0 auto;
+  display: flex;
+}
+#content .content_area_inner img{
+  width: 500px; height: 700px;
+  border-radius: 40px 40px  40px 120px;
+}
+#content .content_area_inner .content_area_right{
+  margin: 100px 0 0 200px;
+}
+#content .content_area_inner .content_area_right p{
+  margin-bottom: 25px;
+  line-height: 30px;
+  font-size: 1.18rem;
+}
+#content .content_area_inner .content_area_right .content_area_right_title{
+  font-size: 1.88rem;
+  margin-bottom: 80px;
+  line-height: 2.5rem;
+}
+#content .content_area_inner .content_area_right .content_area_right_title span{
+  color: var(--font-color-main);
+}
+#content .content_area_inner .content_area_bottom{
+  display: block;
+  font-size: 1.38rem;
+  margin: 110px 0 0 420px;
+  font-weight: 500;
+}

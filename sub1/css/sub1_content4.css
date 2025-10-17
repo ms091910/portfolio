@@ -1,0 +1,36 @@
+/* 오시는길 내용 콘텐츠 */
+#content .content_area{
+  width: 100%;
+  /* padding-bottom: 150px; */
+}
+#content .content_inner{
+  width: 1400px;
+  margin: 0 auto;
+}
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area .content_inner #map{
+  width: 1200px;
+  height: 600px;
+  margin: 50px auto;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, .2);
+}
+
+#content .content_area .content_inner .info{
+  margin:150px auto ;
+  width: 1400px;
+  line-height: 3rem;
+}
+#content .content_area .content_inner .info tbody th{
+  width: 300px;
+  font-size: 1.3rem;
+  color: var(--font-color-main);
+}
+#content .content_area .content_inner .info tbody td{
+  font-size:1.11rem ;
+  padding: 50px 20px;
+  border-bottom: 3px solid rgba(18, 168, 79, .3);
+  vertical-align: top;
+}

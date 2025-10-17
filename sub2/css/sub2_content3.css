@@ -1,0 +1,28 @@
+/* 사회책임경영 내용 콘텐츠 */
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 1400px; margin: 0 auto;
+  padding-bottom: 150px;
+}
+#content .content_area .organization{
+  height: 850px;
+  background: url(../images/content3/organization.jpg) no-repeat center;
+  margin-top: 100px;
+}
+#content .content_area .organization li{
+  text-indent: -9999px;
+}
+
+#content .content_area .circulation{
+  padding-top: 150px;
+}
+#content .content_area .circulation h3{
+  font-size: 3.13rem; text-align: center;
+  margin-bottom: 65px;
+}
+#content .content_area .circulation ul{
+  display: flex; justify-content: center; align-items: center;
+}

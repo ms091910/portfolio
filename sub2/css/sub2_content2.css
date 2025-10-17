@@ -1,0 +1,125 @@
+/* 사회책임경영 내용 콘텐츠 */
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 100%;
+  padding-bottom: 150px;
+}
+#content .content_area .p1{
+  width: 1400px; 
+  margin: 10px auto 150px;
+  font-size: 3.13rem; color: var(--font-color-point2);
+  text-align: center;
+  font-weight: 500; 
+}
+#content .content_area .policy{
+  width: 2000px; height: 380px;
+  background: url(../images/content2/policy_bg.jpg) no-repeat;
+  background-attachment:fixed ;
+  background-size:cover ;
+}
+#content .content_area .policy div{
+  width: 1400px;
+  color: #fff;
+  position: relative;
+}
+#content .content_area .policy div h3{
+  font-size: 2.81rem; font-weight: 700;
+  position: absolute; top: 100px; left: 400px;
+}
+#content .content_area .policy div p{
+  font-size: 1.38rem; line-height: 2.19rem;
+  text-align: center;
+  position: absolute; top: 200px; left: 200px;
+}
+
+
+#content .content_area .rule{
+  width: 1400px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+#content .content_area .rule div{
+  height: 735px;
+  border: 1px solid var(--font-color-point2);
+  border-top: 3px solid var(--font-color-point2);
+}
+#content .content_area .rule div ul{
+  padding:120px 60px 60px;
+}
+#content .content_area .rule div ul li{
+   text-indent: -83px; margin-left: 80px; line-height:1.8rem; 
+   margin-bottom: 35px;
+   font-size: 1.13rem;
+}
+#content .content_area .rule div ul li strong{
+  font-size: 1.56rem;
+}
+
+
+#content .content_area .notify{
+  width: 1400px; margin: 0 auto;
+}
+#content .content_area .notify div{
+  text-align: center;
+}
+#content .content_area .notify div h3{
+  font-size: 3.13rem; margin-bottom: 50px;
+}
+#content .content_area .notify div p{
+  font-size: 1.25rem;
+}
+#content .content_area .notify ul{
+  display: flex; justify-content: center;
+  gap: 30px; margin-top: 50px;
+}
+#content .content_area .notify .notify_address{
+  margin-top: 30px; 
+  display: flex;
+}
+#content .content_area .notify ul li{
+  width: 600px; 
+  background: var(--font-color-sub2); border-radius: 30px;
+  padding: 35px 0;
+  display: flex; gap: 45px;
+  align-items: center
+}
+#content .content_area .notify .notify_address li{
+  width: 1230px;
+}
+#content .content_area .notify ul li .material-symbols-outlined{
+  padding-left: 75px; 
+  color: var(--font-color-main);
+  font-size: 3rem;
+}
+#content .content_area .notify ul li span{
+  font-size: 1.38rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content .content_area .notify .material-symbols-outlined{
+  font-variation-settings: 'FILL' 1
+}

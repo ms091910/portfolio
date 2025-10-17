@@ -1,0 +1,72 @@
+/* 고객의소리 내용 콘텐츠 */
+#content .content_area{
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area img{
+  width: 600px; height: 600px;
+  margin-top: 100px;
+}
+#content .email_box{
+  width: 700px; 
+  /* margin: 0 auto; */
+  padding: 30px;
+  box-sizing: border-box;
+}
+#content .email_box div{
+  padding: 20px;
+}
+#content .email_box label{
+  font-size: 1.13rem; font-weight: 700;
+  margin-bottom: 15px; display: block;
+}
+#content .email_box input, 
+#content .email_box select,
+#content .email_box textarea{
+  padding: 15px 5%;
+  width: 90%; font-size: 1.5rem;
+  border: 0; background: #fff;
+  border-radius: 12px; outline: none;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0, .1);
+  transition: all .5s ease-out;
+}
+#content .email_box input:focus,
+#content .email_box textarea:focus{
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0, .2);
+  transform: scale(1.02);
+  border: 1px solid var(--font-color-main);
+}
+#content .email_box textarea{
+  height: 200px;
+}
+#content .email_box button{
+  padding: 15px 50px;
+  background: var(--font-color-main);
+  color: #fff;
+  font-size: 1.2rem; border-radius: 15px;
+  border: 0;
+  margin: 30px auto;
+  display: block; cursor: pointer;
+}
+
+#content .email_text{
+  width: 1400px;
+  margin: 70px auto 0;
+  padding-bottom: 150px;
+}
+#content .email_info dl{
+  margin: 0 100px 0 200px;
+}
+#content .email_info dt{
+  font-size: 1.25rem; font-weight: 600; 
+  margin-bottom: 15px;
+}
+#content .email_info dd{
+  line-height: 1.8rem; font-size: 1.1rem;
+}

@@ -1,0 +1,59 @@
+/* 사회책임경영 내용 콘텐츠 */
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 1600px; margin:100px auto 0; 
+  padding-bottom: 150px;
+}
+#content .content_area>p{
+  font-size: 1.5rem; text-align: center;
+  line-height: 2.5rem; font-weight: 500;
+  margin-bottom: 100px;
+}
+#content .content_area>p span{
+  color: var(--font-color-point2);
+}
+#content .content_area ul{
+  display: flex;
+  gap: 20px;
+}
+#content .content_area ul li{
+  width: 290px; 
+  padding: 40px 35px 70px;
+  border: 2px solid #ccc; border-radius: 20px;
+  transition: all .3s ease-out;
+}
+#content .content_area ul li:nth-of-type(1){
+  background: url(../images/content1/no1.png) 200px 330px no-repeat; 
+}
+#content .content_area ul li:nth-of-type(2){
+  background: url(../images/content1/no2.png) 200px 330px no-repeat; 
+}
+#content .content_area ul li:nth-of-type(3){
+  background: url(../images/content1/no3.png) 200px 330px no-repeat; 
+}
+#content .content_area ul li:nth-of-type(4){
+  background: url(../images/content1/no4.png) 200px 330px no-repeat; 
+}
+#content .content_area ul li:nth-of-type(5){
+  background: url(../images/content1/no5.png) 200px 330px no-repeat; 
+}
+#content .content_area ul li:hover{
+  border: 2px solid var(--font-color-main);
+}
+#content .content_area ul dl dt{
+  color: var(--font-color-main); font-weight: 600;
+  margin-bottom: 40px;
+}
+#content .content_area ul dl dt span{
+  font-size: 1.56rem; font-weight: 700;
+  color: var(--font-color1);
+  display: block; margin-top: 40px;
+}
+#content .content_area ul dl dd p{
+  font-size: 1.08rem; font-weight: 400;
+  line-height: 1.8rem;
+  padding-bottom: 40px;
+}

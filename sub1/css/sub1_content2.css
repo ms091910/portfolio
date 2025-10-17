@@ -1,0 +1,119 @@
+/* 연혁 내용 콘텐츠 */
+#content .content_area{
+  width: 100%;
+  padding-bottom: 150px;
+}
+#content .title_area p{
+  color: var(--font-color-main);
+}
+#content .content_area .content_inner{
+  width: 1400px;
+  margin: 0 auto;
+}
+
+#content .content_area .content_inner .content_navbox.fix{
+  position: fixed; left: 0; top: 0; 
+  width: 100%; z-index: 50; background: #fff;
+}
+#content .content_area .content_inner .content_navbox .history_menu{
+  display: flex;
+  font-size: 1.44rem;
+  gap: 15px;
+  justify-content: flex-start; padding: 90px 0 80px;
+}
+#content .content_area .content_inner .fix .history_menu{padding: 20px 0; justify-content:center; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.2);}
+
+#content .content_area .content_inner .content_navbox ul li{
+  margin-right: 30px;
+  font-weight: 500;
+  width: 120px; 
+}
+#content .content_area .content_inner .content_navbox ul li a{
+  color: #fff;padding: 10px; background: var(--font-color-main); border-radius: 25px;width: 120px; 
+  text-align: center; transition: all .5s ease-out;
+}
+#content .content_area .content_inner .content_navbox ul li a.spy{
+  background:var(--font-color-point2) ; color: #fff;
+}
+
+#content .content_area .content_inner h3{
+  text-align: center;
+  font-size: 3.13rem; font-weight: 500;
+  margin-bottom: 30px;
+}
+#content .content_area .content_inner p{
+  text-align: center;
+  font-size: 1.25rem; font-weight: 500;
+}
+#content .content_area .content_inner p span{
+  color: var(--font-color-main);
+}
+
+#content .content_area .content_inner .content_history{
+  margin-top: 180px;
+  position: relative;
+}
+#content .content_area .content_inner .content_history::after{
+  content: ''; 
+  display: block;
+  width: 2px; height: 2720px;
+  position: absolute;  top: -80px; left: 50%;
+  transform: translateX(-50%);
+  background: #ccc;
+}
+#content .content_area .content_inner .year_2017::after{
+  content: ''; 
+  display: block;
+  width: 2px; height: 2166px;
+  position: absolute;  top: -80px; left: 50%;
+  transform: translateX(-50%);
+  background: #ccc;
+}
+#content .content_area .content_inner .year_1990::after{
+  content: ''; 
+  display: block;
+  width: 2px; height: 520px;
+  position: absolute;  top: -80px; left: 50%;
+  transform: translateX(-50%);
+  background: #ccc;
+}
+#content .content_area .content_inner .content_history li{
+  display: flex;
+}
+#content .content_area .content_inner .content_history li img{
+  margin-bottom: 150px;
+  border-radius: 40px;
+}
+#content .content_area .content_inner .content_history li dl{
+  padding-left: 195px;
+  margin-top: 40px;
+  position: relative;
+}
+#content .content_history li dl dt{
+  font-size: 3.13rem; font-weight: 600;
+  color: var(--font-color-point2);
+  margin-bottom: 50px;
+}
+#content .content_history li dl dt::after{
+  content: ''; 
+  display: block;
+  width: 1000px; height: 1px;
+  position: absolute;  top: 80px;
+  background: #ccc;
+}
+#content .content_history li dl dd{
+  margin-bottom: 85px;
+  font-size: 1.13rem;
+  padding-left: 20px; position: relative;
+}
+#content .content_history li dl dd::after{
+  content: ''; 
+  display: block;
+  width: 1000px; height: 1px;
+  position: absolute;  top:70px ; left:0;
+  background: #ccc;
+}
+#content .content_history li dl strong{
+  margin-right: 50px;
+  font-size: 1.25rem;
+}

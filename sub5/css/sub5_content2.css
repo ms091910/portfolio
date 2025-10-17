@@ -1,0 +1,168 @@
+/* 사회책임경영 내용 콘텐츠 */
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 100%; 
+  /* padding-bottom: 150px; */
+}
+
+#content .content_area .management{
+  width: 1400px; margin: 0 auto;
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+#content .content_area .management h3{
+  font-size: 1.88rem; margin-bottom: 50px;
+  color: var(--font-color-main);
+  font-weight: 700;
+}
+#content .content_area .management .management_box{
+  display: flex;
+}
+#content .content_area .management_box img{
+  border-radius: 50px 0 50px 0;
+  height: 535px;
+}
+#content .content_area .management_box dl{
+  padding:30px 0 0 100px;
+}
+#content .content_area .management_box dl dt{
+  font-size: 1.44rem; font-weight:600 ;
+  margin-bottom: 30px;
+}
+#content .content_area .management_box dl dd{
+  font-size: 1.13rem; 
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ccc ;
+  margin-bottom: 30px;
+  line-height: 1.8rem;
+}
+#content .content_area .management_box dl dd:last-of-type{
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+#content .content_area .management_box dl dd:last-of-type span{
+  display: block; margin-bottom: 10px;
+}
+
+
+#content .content_area .marketing{
+  background: var(--font-color-sub2);
+  padding: 100px 0;
+}
+#content .content_area .marketing .marketing_inner{
+  width: 1400px; margin: 0 auto;
+}
+#content .content_area .marketing h3{
+  font-size: 1.88rem; margin-bottom: 50px;
+  color: var(--font-color-main);
+  font-weight: 700;
+}
+#content .content_area .marketing .marketing_inner .marketing_box{
+  display: flex;
+}
+#content .content_area .marketing .marketing_box img{
+  border-radius: 50px 0 50px 0;
+  height: 535px;
+}
+#content .content_area .marketing .marketing_box dl{
+  padding:30px 0 0 100px;
+}
+#content .content_area .marketing .marketing_box dt{
+  font-size: 1.44rem; font-weight:600 ;
+  margin-bottom: 30px;
+}
+#content .content_area .marketing .marketing_box dd{
+  font-size: 1.13rem; 
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ccc ;
+  margin-bottom: 30px;
+  line-height: 1.8rem;
+}
+#content .content_area .marketing .marketing_box dd:last-of-type{
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+
+#content .content_area .sales{
+  width: 1400px; margin: 0 auto;
+  padding: 100px 0;
+}
+#content .content_area .sales h3{
+  font-size: 1.88rem; margin-bottom: 50px;
+  color: var(--font-color-main);
+  font-weight: 700;
+}
+#content .content_area .sales .sales_box{
+  display: flex;
+}
+
+#content .content_area .sales .sales_box img{
+  border-radius: 50px 0 50px 0;
+  height: 535px;
+}
+#content .content_area .sales_box dl{
+  padding:30px 0 0 100px;
+}
+#content .content_area .sales_box dt{
+  font-size: 1.44rem; font-weight:600 ;
+  margin-bottom: 30px;
+}
+#content .content_area .sales_box dd{
+  font-size: 1.13rem; 
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ccc ;
+  margin-bottom: 30px;
+  line-height: 1.8rem;
+}
+#content .content_area .sales_box dd:last-of-type{
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+
+
+#content .content_area .school{
+  background: var(--font-color-sub2);
+  padding: 100px 0;
+}
+#content .content_area .school .school_inner{
+  width: 1400px; margin: 0 auto;
+}
+#content .content_area .school .school_inner h3{
+  font-size: 1.88rem; margin-bottom: 50px;
+  color: var(--font-color-main);
+    font-weight: 700;
+}
+#content .content_area .school .school_inner .school_box{
+  display: flex;
+}
+#content .content_area .school .school_box img{
+  border-radius: 50px 0 50px 0;
+  height: 535px;
+}
+#content .content_area .school .school_box dl{
+  padding:30px 0 0 100px;
+}
+#content .content_area .school .school_box dt{
+  font-size: 1.44rem; font-weight:600 ;
+  margin-bottom: 30px;
+}
+#content .content_area .school .school_box dd{
+  font-size: 1.13rem; 
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ccc ;
+  margin-bottom: 30px;
+  line-height: 1.8rem;
+}
+#content .content_area .school .school_box dd:last-of-type{
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}

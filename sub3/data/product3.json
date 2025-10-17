@@ -1,0 +1,20 @@
+{
+  "product3": [
+    {"Pname":"우리쌀칩 현미맛","Image":"./images/content3/snack_1.png","Type":"과자","Pop_tit":"농협 우리쌀칩 현미맛","Popimg":"./images/content3/snapop_1.jpg","Desc":"씹을수록 고소한 풍미가 올라와 곡물의 자연스러운 맛을 느낄 수 있는 스낵","Kacl":"열량 : 240kal","Allergy":"알레르기 : 현미"},
+    {"Pname":"우리쌀칩 양파맛","Image":"./images/content3/snack_2.png","Type":"과자","Pop_tit":"농협 우리쌀칩 양파맛","Popimg":"./images/content3/snapop_2.jpg","Desc":"국산 쌀로 만들어 더욱 바삭하고 고소한 진짜 쌀 스낵!","Kacl":"열량 : 230kal","Allergy":"알레르기 : 대두, 밀, 우유"},
+    {"Pname":"찹쌀 조청유과","Image":"./images/content3/snack_3.png","Type":"과자","Pop_tit":"농협 찹쌀 조청유과","Popimg":"./images/content3/snapop_3.jpg","Desc":"국내산 조청으로 풍미를 더한 온가족 영영간식","Kacl":"열량 : 850kal","Allergy":"알레르기 : 대두, 밀,  우유, 콩 "},
+    {"Pname":"우리쌀 도나쓰 버터맛","Image":"./images/content3/snack_4.png","Type":"과자","Pop_tit":"우리쌀 도나쓰 버터맛","Popimg":"./images/content3/snapop_4.jpg","Desc":"우리쌀을 넣어 겉은 바삭하고 속은 부드러운 간식","Kacl":"열량 : 505kal","Allergy":"알레르기 : 대두, 밀,  우유, 계란, 땅콩, 복숭아"},
+    {"Pname":"우리쌀 도나쓰 바나나맛","Image":"./images/content3/snack_5.png","Type":"과자","Pop_tit":"우리쌀 도나쓰 바나나맛","Popimg":"./images/content3/snapop_5.jpg","Desc":"튀기지 않아 더욱 건강하고 입안 가득 버터 풍미가 넘치는 프리미엄 도나쓰","Kacl":"열량 : 505kal","Allergy":"알레르기 : 대두, 밀,  우유, 계란, 땅콩, 복숭아"},
+    {"Pname":"젤리농장 매실","Image":"./images/content3/snack_6.png","Type":"젤리","Pop_tit":"농협 젤리농장 매실","Popimg":"./images/content3/snapop_6.jpg","Desc":"톡톡 씹히는 식감의 코코넛젤리가 있어 식사 후 디저트로 안성맞춤","Kacl":"열량 : 135kal","Allergy":"알레르기 : 우유"},
+    {"Pname":"젤리농장 복분자","Image":"./images/content3/snack_7.png","Type":"젤리","Pop_tit":"농협 젤리농장 복분자","Popimg":"./images/content3/snapop_7.jpg","Desc":"100% 국산 복분자 농축액을 사용하여 달콤상콤한 복분자의 풍미","Kacl":"열량 : 135kal","Allergy":"알레르기 : 우유"},
+    {"Pname":"초코리얼 화이트","Image":"./images/content3/snack_8.png","Type":"과자","Pop_tit":"농협 초코리얼 화이트","Popimg":"./images/content3/snapop_8.jpg","Desc":"쌀과 달콤한 초콜릿의 환상적인 콜라보레이션","Kacl":"열량 : 1400kal","Allergy":"알레르기 : 대두, 밀, 우유"},
+    {"Pname":"우리나라 전통간식 쌀약과","Image":"./images/content3/snack_9.png","Type":"과자","Pop_tit":"농협 우리나라 전통간식 쌀약과","Popimg":"./images/content3/snapop_9.jpg","Desc":"국내산 쌀가루로 만든 전통영양간식","Kacl":"열량 : 305kal","Allergy":"알레르기 : 대두, 밀, 우유"},
+    {"Pname":"쌀로팝 대파크림맛","Image":"./images/content3/snack_10.png","Type":"과자","Pop_tit":"쌀로팝 대파크림맛","Popimg":"./images/content3/snapop_10.jpg","Desc":"가루쌀과 옥수수가 만나 더욱 고소하고 바삭한 스낵","Kacl":"열량 : 149kal","Allergy":"알레르기 : 대두, 밀, 우유, 달걀"},
+    {"Pname":"우리쌀 인절미 스낵","Image":"./images/content3/snack_11.png","Type":"과자","Pop_tit":"농협 우리쌀 인절미 스낵","Popimg":"./images/content3/snapop_11.jpg","Desc":"국산 쌀가루로 만든 과자에 달콤한 인절미 시즈닝이 듬뿍!","Kacl":"열량 : 688kal","Allergy":"알레르기 : 대두, 밀, 우유"},
+    {"Pname":"곤약젤리 감귤","Image":"./images/content3/snack_12.png","Type":"젤리","Pop_tit":"농협 곤약젤리 감귤","Popimg":"./images/content3/snapop_12.jpg","Desc":"상큼하고 가벼운 나만의 간식","Kacl":"열량 : 7kal","Allergy":"알레르기 : 감귤"},
+    {"Pname":"곤약젤리 포도","Image":"./images/content3/snack_13.png","Type":"젤리","Pop_tit":"농협 곤약젤리 포도","Popimg":"./images/content3/snapop_13.jpg","Desc":"언제 어디서나 간편하고 가볍게","Kacl":"열량 : 7kal","Allergy":"알레르기 : 포도"},
+    {"Pname":"곤약젤리 사과","Image":"./images/content3/snack_14.png","Type":"젤리","Pop_tit":"농농협 곤약젤리 사과","Popimg":"./images/content3/snapop_14.jpg","Desc":"칼로리 걱정 없이 즐겁게 즐길 수 있는 간식","Kacl":"열량 : 8kal","Allergy":"알레르기 : 사과"},
+    {"Pname":"쌀로팝 매콤떡볶이맛","Image":"./images/content3/snack_15.png","Type":"과자","Pop_tit":"쌀로팝 매콤떡볶이맛","Popimg":"./images/content3/snapop_15.jpg","Desc":"농협 고추장을 넣어 더욱 깊고 진한 맛이 나는","Kacl":"열량 : 146kal","Allergy":"알레르기 : 대두, 밀, 쇠고기"}
+  ]
+}
+  

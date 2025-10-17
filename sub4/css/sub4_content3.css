@@ -1,0 +1,63 @@
+/* 사회책임경영 내용 콘텐츠 */
+#content .title_area p{
+  color: var(--font-color-main);
+}
+
+#content .content_area{
+  width: 100%;
+  padding:10px 0 150px 0;
+}
+#content .content_area .cf_content{
+  width: 1200px; margin: 0 auto;
+}
+
+#content .content_area .cf_content .tab_menu{
+  display: flex; justify-content:center; gap: 100px;
+  margin-bottom: 50px;
+}
+#content .content_area .cf_content .tab_menu li{
+  font-size: 1.25rem; font-weight: 500; 
+}
+#content .content_area .cf_content .tab_menu li a{
+  width: 200px; text-align: center; 
+  border: 3px solid var(--font-color-point1);
+  border-radius: 25px; padding: 10px 0;
+}
+#content .content_area .cf_content .tab_menu .current{
+  background: var(--font-color-point1); color: #fff;
+}
+
+#content .contlist{display: none;}
+section iframe{
+  width: 1000px; display: block;
+  margin: 0 auto; border-radius: 40px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .3);
+}
+
+#content ul{
+  display: flex; padding-top:100px ;
+  flex-wrap: wrap; justify-content: center;
+  gap:60px 50px;
+}
+#content #company ul li, #content #campaign ul li, #content #youtube ul li{
+  background: #fff;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .25);
+  border-radius: 15px; 
+}
+#content #company ul li:hover, #content #campaign ul li:hover, #content #youtube ul li:hover{
+  background: var(--font-color-point1);
+}
+#content  ul li img{
+  border-radius: 15px 15px 0 0;
+}
+#content #company ul li p, #content #campaign ul li p, #content #youtube ul li p{
+  font-size: 1.13rem; text-align: center;
+  padding: 10px;  font-weight: 500;
+  color: var(--font-color2);
+}
+#content #company ul li:hover p, #content #campaign ul li:hover p, #content #youtube ul li:hover p{
+  color: #fff;
+}
+/* #content #campaign{padding-top: 100px;}
+#content #youtube{padding-top: 100px;} */

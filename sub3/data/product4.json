@@ -1,0 +1,17 @@
+{
+  "product4": [
+    {"Pname":"세림 현미유","Image":"./images/content4/fr_1.png","Pop_tit":"세림 현미유","Popimg":"./images/content4/frpop_1.jpg","Desc":"영양이 풍부한 현미의 쌀눈과 호분층에서 추출한 고급현미유","Kacl":"","Allergy":""},
+    {"Pname":"마하탑 멸치액젓","Image":"./images/content4/fr_2.png","Pop_tit":"마하탑 멸치액젓","Popimg":"./images/content4/frpop_2.jpg","Desc":"저염식 건강한 식탁 천천히 본연 그대로 자연의 맛","Kacl":"열량 : 120kal","Allergy":""},
+    {"Pname":"토리 돈가스 소스","Image":"./images/content4/fr_3.png","Pop_tit":"토리 돈가스 소스","Popimg":"./images/content4/frpop_3.jpg","Desc":"남녀노소 누구의 입맛에도 잘 맞는 정석적인 돈까스 소스","Kacl":"열량 : 150kal","Allergy":"알레르기 : 토마토, 대두, 밀, 돼지고기"},
+    {"Pname":"우리쌀 쌀부침가루","Image":"./images/content4/fr_4.png","Pop_tit":"농협 우리쌀 쌀부침가루","Popimg":"./images/content4/frpop_4.jpg","Desc":"가루쌀이 들어가 한 층 바삭해진 식감!","Kacl":"열량 : 1,350kal","Allergy":"알레르기 : 대두, 밀"},
+    {"Pname":"쿠엔즈버킷 국산 볶음참깨","Image":"./images/content4/fr_5.png","Pop_tit":"쿠엔즈버킷 국산 볶음참깨","Popimg":"./images/content4/frpop_5.jpg","Desc":"매일 당일 로스팅으로 더욱 신선한 제품을 고객님께","Kacl":"열량 : 583.66kcal","Allergy":"알레르기 : 참깨"},
+    {"Pname":"우리밀 백밀국수","Image":"./images/content4/fr_6.png","Pop_tit":"우리밀 백밀국수","Popimg":"./images/content4/frpop_6.jpg","Desc":"전통방법으로 제면, 건조한 수제 국수","Kacl":"열량 : 132kal","Allergy":"알레르기 : 대두, 밀"},
+    {"Pname":"해리농협 탈수천일염","Image":"./images/content4/fr_7.png","Pop_tit":"해리농협 탈수천일염","Popimg":"./images/content4/frpop_7.jpg","Desc":"천연미네랄 함량이 높은 청정 갯벌염전에서 만들어내는 건강 소금","Kacl":"","Allergy":"알레르기 : 천일염"},
+    {"Pname":"궁중 국간장","Image":"./images/content4/fr_8.png","Pop_tit":"궁중 국간장","Popimg":"./images/content4/frpop_8.jpg","Desc":"전라북도에서 재배된 우리콩만 사용한 천연 집간장","Kacl":"","Allergy":"알레르기 : 콩 (발효제품)"},
+    {"Pname":"아삭이 고춧가루","Image":"./images/content4/fr_9.png","Pop_tit":"아삭이 고춧가루","Popimg":"./images/content4/frpop_9.jpg","Desc":"100% 국내산 건고추만을 사용하여 만든 프리미엄 고춧가루","Kacl":"","Allergy":"알레르기 : 고춧가루"},
+    {"Pname":"쿠앤즈버킷 국산 참기름","Image":"./images/content4/fr_10.png","Pop_tit":"쿠앤즈버킷 국산 참기름","Popimg":"./images/content4/frpop_10.jpg","Desc":"쿠엔즈버킷만의 특허 제조방식으로 영양분과 향을 극대화한 참기름","Kacl":"열량 : 899kal","Allergy":"알레르기 : 대두"},
+    {"Pname":"예지천보 들기름","Image":"./images/content4/fr_11.png","Pop_tit":"예지천보 들기름","Popimg":"./images/content4/frpop_11.jpg","Desc":"자연이 내어 준 선물로 건강과 행복에 고소함을 더합니다","Kacl":"열량 : 855kal","Allergy":"알레르기 : 들깨"},
+    {"Pname":"우리쌀 쌀튀김가루","Image":"./images/content4/fr_12.png","Pop_tit":"농협 우리쌀 쌀튀김가루","Popimg":"./images/content4/frpop_12.jpg","Desc":"국산 주재료를 활용하여 더욱 맛있고 건강하게","Kacl":"열량 : 1,650kal","Allergy":"알레르기 : 소금, 마늘분말, 양파분말"}
+  ]
+}
+  
