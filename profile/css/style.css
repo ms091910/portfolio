@@ -72,6 +72,7 @@ body{
   /* color: #2E3A59;  */
   color: #fff; padding-bottom: 15px;
 }
+#section0 h2 span {display: inline-block;}
 #section0 div .circle{
   font-size: 1.3rem; font-weight: 600; color: #fff; position: relative;
 }

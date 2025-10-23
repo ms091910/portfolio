@@ -36,7 +36,7 @@
 
     <section class="section" id="section0">
         <div>
-            <h2>Portfolio</h2>
+            <h2 class="h2">Portfolio</h2>
             <span class="circle">Web Publisher <br>& Designer</span>
         </div>
         <p>Crafting clean interfaces
@@ -377,6 +377,25 @@
         lazyLoad: true,
         navigation:true
     });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js'></script>
+<script>
+    var headline = $(".h2");
+    var char = '[class*="char"]';
+
+    var tl = new TimelineLite();
+
+    headline
+    .lettering('words')
+    .children('span').lettering();
+
+    tl.staggerFrom(char, 1, {
+    opacity: 0,
+    ease: Elastic.easeOut,
+    y: '100%'
+    }, 0.1);
 </script>
 </body>
 </html>
